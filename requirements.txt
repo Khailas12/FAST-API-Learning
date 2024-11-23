@@ -4,3 +4,5 @@ sqlalchemy
 passlib
 alembic
 bcrypt
+pyjwt
+python-jose

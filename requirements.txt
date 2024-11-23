@@ -6,3 +6,4 @@ alembic
 bcrypt
 pyjwt
 python-jose
+python-dotenv

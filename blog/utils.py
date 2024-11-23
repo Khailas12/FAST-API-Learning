@@ -1,11 +1,12 @@
-from fastapi.security import OAuth2PasswordBearer
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
-
 from blog.models import User
+from dotenv import load_dotenv
+import os  
 
+load_dotenv()
 
-SECRET_KEY = "5c1de34520a16fb7027512f48ed5988b1ae675fccbfed5e1" 
+SECRET_KEY = os.getenv('SECRET_KEY') 
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 

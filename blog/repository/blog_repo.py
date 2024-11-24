@@ -1,8 +1,6 @@
 from datetime import datetime
-from fastapi import Depends, HTTPException, status
-
-from blog import oauth
-from .. import models, schemas
+from fastapi import HTTPException, status
+from blog import models, schemas
 from sqlalchemy.orm import Session
 
 

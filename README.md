@@ -79,7 +79,7 @@ The **FastAPI** blog application supports core features like creating, reading, 
 
 Ensure you have the following installed on your machine:
 
-- **Python 3.9+**
+- **Python 3.8+**
 - **Docker**
 - **Docker Compose**
 
